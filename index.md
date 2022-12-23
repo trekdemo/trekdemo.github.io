@@ -1,1 +1,3 @@
-hello from trekdemo.github.io
+---
+layout: home
+---
