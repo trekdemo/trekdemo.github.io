@@ -90,12 +90,15 @@ author:
 
 # Footer Links
 footer_links:
-  - title: Instagram
-    url: https://instagram.com/trekdemo
-    icon: fab fa-instagram
   - title: GitHub
     url: https://github.com/trekdemo
     icon: fab fa-github-square
+  - title: YouTube
+    url: https://www.youtube.com/channel/UCgpC4HB3kkWCJkrezWoFt8A
+    icon: fab fa-youtube-square
+  - title: Instagram
+    url: https://instagram.com/trekdemo
+    icon: fab fa-instagram
   - title: Twitter
     url: https://twitter.com/trekdemo
     icon: fab fa-twitter-square
