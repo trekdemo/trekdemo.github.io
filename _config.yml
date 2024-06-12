@@ -21,9 +21,9 @@
 title: Stage whisper
 email: gergo.sulymosi@gmail.com
 description: Intended to be overheard.
-domain: trekdemo.github.io
+domain: gergo.dev
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://trekdemo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://gergo.dev" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
