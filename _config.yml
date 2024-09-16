@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Stage whisper
-email: gergo.sulymosi@gmail.com
+title: Stage whispers
 description: Intended to be overheard.
 domain: gergo.dev
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gergo.dev" # the base hostname & protocol for your site, e.g. http://example.com
+email: gergo.sulymosi@gmail.com
 
 # Build settings
 remote_theme: "mmistakes/so-simple-theme@3.2.0"
