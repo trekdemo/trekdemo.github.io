@@ -21,4 +21,7 @@ end
 
 group :development do
   gem 'webrick'
+
+  # Offline usage documentation for Jekyll.
+  gem "jekyll-docs", "~> 2.5"
 end

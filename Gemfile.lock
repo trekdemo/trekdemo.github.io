@@ -124,6 +124,7 @@ GEM
       rouge (>= 2.0, < 5.0)
     jekyll-default-layout (0.1.5)
       jekyll (>= 3.0, < 5.0)
+    jekyll-docs (2.5.3)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
@@ -268,6 +269,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages (~> 231)
   jekyll (~> 3.9.5)
+  jekyll-docs (~> 2.5)
   jekyll-feed (~> 0.17)
   webrick
 
