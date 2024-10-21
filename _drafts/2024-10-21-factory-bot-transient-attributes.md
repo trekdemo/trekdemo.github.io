@@ -17,6 +17,22 @@ The translations have a few attributes, and at least one translation of one attr
 
 So in the end we used something like this
 
+```mermaid
+erDiagram
+    PRODUCTS ||--|{ PRODUCT_TRANSLATIONS : translates
+    PRODUCTS {
+        int id
+        string brand
+        decimal price
+    }
+    PRODUCT_TRANSLATIONS {
+        int product_id PK, FK
+        string locale PK
+        string picture
+        string manual
+    }
+```
+
 The end goal was to go from a long test setup, to a simple but expressive one-liner.
 
 ```ruby
@@ -64,3 +80,15 @@ FactoryBot.define do
     end
 end
 ```
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+
+  $(document).ready(function () {
+    mermaid.initialize({
+      startOnLoad:true,
+      theme: "default",
+    });
+    mermaid.run({ querySelector: '.language-mermaid'});
+  });
+</script>
